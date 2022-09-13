@@ -63,6 +63,89 @@ h1 {
     margin-right: -51px;
     margin-bottom: -10px;
 }
-/* -----/TOOLBAR----- */
+
+/* -----TASKLIST----- */
+.tasklist {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.tasklist > h2 {
+    font-size: 18px;
+}
+
+.tasklist > ul {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    position:absolute;
+    margin-left: -25px;
+    font-size: 35px;
+}
+
+.circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
+.circle-check {
+    color: green;
+    border-color: green;
+}
+
+.circle-cross {
+    color: red;
+    border-color: red;
+}
+
+
+.label {
+    display: inline-block;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    vertical-align: bottom;
+}
+
+.label-blue {
+    background-color: #45ABEA;
+}
+
+.label-purple {
+    background-color: #9C72E4;
+}
+
+.label-green {
+    background-color: #64C0A9;
+}
+
+.label-orange {
+    background-color: #F29E33;
+}
+
+.label-fuchsia {
+    background-color: #D863A1;
+}
+
+.label-greenlime {
+    background-color: #B0C926;
+}
 
 /* --------------------------------/MAIN-------------------------------- */
