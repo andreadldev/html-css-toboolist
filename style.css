@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-/* HEADER */
+/* --------------------------------HEADER-------------------------------- */
 header {
     background-color: white;
     padding: 0 20px;
@@ -19,4 +19,50 @@ h1 {
 .logo {
     vertical-align: middle;
 }
-/* /HEADER */
+/* --------------------------------/HEADER-------------------------------- */
+
+
+/* --------------------------------MAIN-------------------------------- */
+.container {
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+/* -----TOOLBAR----- */
+.toolbar > .button {
+    display: inline-block;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+.toolbar > .btn-1 {
+    background-color: #45ABEA;
+    border: 0.5px solid #45ABEA;
+}
+
+.toolbar > .btn-2 {
+    background-color: white;
+    border: 0.5px solid lightgray;
+    color: lightgray;
+}
+
+.toolbar > hr {
+    height: 2px;
+    background-color: #f6f8f9;
+    border: none;
+    margin-left: -51px;
+    margin-right: -51px;
+    margin-bottom: -10px;
+}
+/* -----/TOOLBAR----- */
+
+/* --------------------------------/MAIN-------------------------------- */
