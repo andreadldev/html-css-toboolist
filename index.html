@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-
+<!-- HEADER -->
     <header>
         <img class="logo" src="assets/logo.png" alt="logo">
         <h1>Toboolist</h1>
     </header>
-
+    
+<!-- MAIN -->
     <main class="container">
 
         <section class="toolbar">
@@ -26,16 +27,71 @@
         </section>
 
         <section class="tasklist">
-           
-                <h2><div class="dropdown">&#129171</div> New Task</h2>
+            <!-- LISTA 1: NEW TASK -->
+           <div class="task">
+                <h2><div class="dropdown">&#129171</div>New Task</h2>
                 <ul>
                     <li>
                         <span class="circle circle-check">✓</span>
-                         Quarterly Newsletter
-                         <div class="label label-blue">Editorial</div>
+                        Quarterly Newsletter
+                        <div class="label label-blue">Editorial</div>
                     </li>
                 </ul>
-            
+            </div>
+
+            <!-- LISTA 2: TODAY -->
+            <div class="task">
+                <h2><div class="dropdown">&#129171</div>Today</h2>
+                <ul>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Recruiting blog post
+                        <div class="label label-blue">Editorial</div>
+                    </li>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Mobile app launch
+                        <div class="label label-purple">Q1 Goals</div>
+                    </li>
+                    <li>
+                        <span class="circle circle-cross">✗</span>
+                        Interview John H.
+                        <div class="label label-green">Recruiting</div>
+                    </li>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Summit update to mobile storefronts
+                        <div class="label label-orange">Mobile</div>
+                    </li>
+                </ul>
+            </div>
+
+             <!-- LISTA 3: UPCOMING -->
+             <div class="task">
+                <h2><div class="dropdown">&#129171</div>Upcoming</h2>
+                <ul>
+                    <li>
+                        <span class="circle circle-cross">✓</span>
+                        Schedule meeting with Alex
+                    </li>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Homepage refresh
+                        <div class="label label-fuchsia">Website</div>
+                    </li>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Onboard new Sales team members
+                        <div class="label label-greenlime">Sales</div>
+                    </li>
+                    <li>
+                        <span class="circle circle-check">✓</span>
+                        Review editorial calendar
+                        <div class="label label-blue">Editorial</div>
+                    </li>
+                </ul>
+            </div>
+
         </section>
 
     </main>

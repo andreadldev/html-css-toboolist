@@ -65,19 +65,27 @@ h1 {
 }
 
 /* -----TASKLIST----- */
+h2 {
+    font-size: 18px;
+}
+
+.task {
+    margin-bottom: 40px;
+}
+
 .tasklist {
     margin-top: 35px;
     margin-left: 20px;
 }
 
-.tasklist > h2 {
-    font-size: 18px;
-}
-
-.tasklist > ul {
+.tasklist > .task > ul {
     list-style: none;
     list-style-position: inside;
     padding-left: 0;
+}
+
+.tasklist > .task > ul > li {
+    margin-bottom: 15px;
 }
 
 .dropdown {
@@ -87,6 +95,7 @@ h1 {
     font-size: 35px;
 }
 
+/* ICONE CHECK E CROSS */
 .circle {
     display: inline-block;
     height: 15px;
@@ -110,7 +119,7 @@ h1 {
     border-color: red;
 }
 
-
+/* ETICHETTE */
 .label {
     display: inline-block;
     border: none;
